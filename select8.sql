@@ -1,3 +1,4 @@
+
 select * from Person
 where PID in (select PID
               from Director
@@ -16,7 +17,7 @@ where PID in (select PID
                             )
               );
               
-                                                                            
+
                                                                    
                                  
                     
