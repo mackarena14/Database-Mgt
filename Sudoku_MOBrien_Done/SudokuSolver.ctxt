@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=void\ main()
-comment1.params=row\ col\ puzzle
-comment1.target=int\ findSolutions(int,\ int,\ SudokuPuzzle)
-comment2.params=digit\ row\ col\ puzzle
-comment2.target=boolean\ checkPosition(int,\ int,\ int,\ SudokuPuzzle)
-numComments=3
