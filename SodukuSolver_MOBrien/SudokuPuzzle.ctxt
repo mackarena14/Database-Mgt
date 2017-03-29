@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=SudokuPuzzle(int)
+comment1.params=
+comment1.target=void\ getPuzzle()
+comment2.params=
+comment2.target=void\ printPuzzle()
+comment3.params=row\ col\ num
+comment3.target=void\ setLocation(int,\ int,\ int)
+comment4.params=num\ num2
+comment4.target=int\ getLocation(int,\ int)
+comment5.params=
+comment5.target=int\ getSize()
+comment6.params=
+comment6.target=int\ getNumZero()
+numComments=7
