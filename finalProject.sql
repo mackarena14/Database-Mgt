@@ -453,7 +453,7 @@ DROP VIEW IF EXISTS mostWalks;
 select distinct people.firstName as Owner_FirstName, people.LastName as Owner_LastName, animals.Name as PetName, animals.EstimatedAge, adoptions.date
 	from adoptions
     	inner join people on people.pid=adoptions.pid
-        inner join animals on adoptions.aid=animals.aid
+        inner join animals on adoptions.aid=animals.aid;
         
  
 CREATE OR REPLACE FUNCTION euthanized()
@@ -491,7 +491,7 @@ DECLARE
         RETURN age(birthday);
      END;
 $$
- language plpgsql
+ language plpgsql;
 
 -- select oldEnough(9)
 
